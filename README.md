@@ -30,12 +30,14 @@ Files:
 6. PodcastPlayer.cc PodcastPlayer.h (Behaviour object)
 
 7. View.cc View.h (View object)
-   
+     
 9. Control.cc Control.h (Control object)
    
 11. TestControl.cc TestControl.h (Control object)
+     - base code professor provided
     
 13. Tester.cc Tester.h
+     - base code professor provided
  
 15. Makefile -> compiles all files 
 
