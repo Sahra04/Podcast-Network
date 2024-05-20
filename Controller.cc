@@ -11,18 +11,6 @@ void Controller::launch(){
     cout<<"Done initializing"<<endl;
     int choice = -1;
 
-    // This is what the View shows:
-    // cout << "What would you like to do?"<< endl;
-    // cout << "  (1) Show all Podcasts" << endl;
-    // cout << "  (2) Show single Podcast" << endl;
-    // cout << "  (3) Get episode by host" << endl;
-    // cout << "  (4) Get episode by category" << endl;
-    // cout << "  (5) Get episode by host or category" << endl;
-    // cout << "  (6) Print current episode list" << endl;
-    // cout << "  (7) Play current episode list" << endl;
-    // cout << "  (8) Toggle video" << endl;
-    // cout << "  (0) Exit" << endl<<endl;
-
     while (true){
         choice = -1;
         vector<string> menu ={
