@@ -1,10 +1,5 @@
 #include "PodcastPlayer.h"
 
-
-
-// VideoPlayer::VideoPlayer(const string& vf): videoFile(vf) {
-
-// }
 void AudioPlayer :: play(const Episode& m, ostream& ost){
     ost<<"Episode audio "<< m.getAudio() << endl; 
 
@@ -29,7 +24,5 @@ void VideoPlayer :: play(const Episode& m, ostream& ost){
     }
 
     infile.close(); 
-
-
 
 }
