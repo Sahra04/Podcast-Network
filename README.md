@@ -1,19 +1,3 @@
-compilation instructions: 
-1. go to the directory on where the file assignment is 
-2. type "make"
-3. that should make the executable file test and a4
-
-
-execution instruction for test:
-1. type "./test"  
-2. then go through all tests by typing the number associated with test <(ex) test1 -> you will type 1 in order to execute it>
-
-execution instruction for a4:
-1. type "./a4"
-2. go through all options you as an user would choose
-
-clean object files and executable: 
-1. type "make clean"
 
 Files: 
 
@@ -32,14 +16,8 @@ Files:
 7. View.cc View.h (View object)
      
 9. Control.cc Control.h (Control object)
-   
-11. TestControl.cc TestControl.h (Control object)
-     - base code professor provided
-    
-13. Tester.cc Tester.h
-     - base code professor provided
  
-15. Makefile -> compiles all files 
+10. Makefile -> compiles all files 
 
-16. README
+11. README
 
